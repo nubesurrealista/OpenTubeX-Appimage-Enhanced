@@ -1,6 +1,6 @@
 <div align="center">
 
-# FreeTube-AppImage-Enhanced 🐧
+# OpenTubeX-AppImage-Enhanced 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/nubesurrealista/OpenTubeX-Appimage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/FreeTube-AppImage-Enhanced/releases/latest)
 [![CI Build Status](https://github.com/nubesurrealista/OpenTubeX-Appimage-Enhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/nubesurrealista/OpenTubeX-Appimage-Enhanced/releases/latest)
