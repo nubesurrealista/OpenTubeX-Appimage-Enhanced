@@ -25,7 +25,7 @@ case "$ARCH" in # they use AMD64 and ARM64 for the deb links
 	x86_64)  deb_arch=amd64;;
 	aarch64) deb_arch=arm64;;
 esac
-DEB_LINK=$(wget https://api.github.com/repos/FreeTubeApp/FreeTube/releases -O - \
+DEB_LINK=$(wget https://api.github.com/repos/OpenTubeX/OpenTubeX/releases -O - \
       | sed 's/[()",{} ]/\n/g' | grep -o -m 1 "https.*$deb_arch.deb")
 echo "$DEB_LINK" | awk -F'/' '{gsub(/^v/, "", $(NF-1)); print $(NF-1); exit}' > ~/version
 if ! wget --retry-connrefused --tries=30 "$DEB_LINK" -O /tmp/app.deb 2>/tmp/download.log; then
@@ -38,6 +38,6 @@ ar xvf /tmp/app.deb
 tar -xvf ./data.tar.xz
 rm -f ./*.xz
 rm -rf ./usr/share/doc
-mv -v ./opt/FreeTube/* ./AppDir/bin
-cp ./usr/share/icons/hicolor/scalable/apps/freetube.svg ./AppDir/.DirIcon
-mv -v ./usr/share/icons/hicolor/scalable/apps/freetube.svg ./usr/share/applications/freetube.desktop ./AppDir
+mv -v ./opt/OpenTubeX/* ./AppDir/bin
+cp ./usr/share/icons/hicolor/scalable/apps/opentubex.svg ./AppDir/.DirIcon
+mv -v ./usr/share/icons/hicolor/scalable/apps/opentubex.svg ./usr/share/applications/opentube.desktop ./AppDir
