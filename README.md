@@ -2,9 +2,9 @@
 
 # OpenTubeX-AppImage-Enhanced 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/nubesurrealista/OpenTubeX-Appimage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/FreeTube-AppImage-Enhanced/releases/latest)
-[![CI Build Status](https://github.com/nubesurrealista/OpenTubeX-Appimage-Enhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/nubesurrealista/OpenTubeX-Appimage-Enhanced/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/nubesurrealista/OpenTubeX-Appimage-Enhanced)](https://github.com/nubesurrealista/OpenTubeX-Appimage-Enhanced/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/OpenTubeX-Appimage-Enhanced/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/OpenTubeX-Appimage-Enhanced/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/OpenTubeX-Appimage-Enhanced/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/OpenTubeX-Appimage-Enhanced/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/OpenTubeX-Appimage-Enhanced)](https://github.com/pkgforge-dev/OpenTubeX-Appimage-Enhanced/releases/latest)
 
 <p align="center">
   <img src="https://github.com/OpenTubeX.png" width="128" />
@@ -13,7 +13,7 @@
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/nubesurrealista/OpenTubeX-Appimage-Enhanced/releases/latest) | [Click here](https://github.com/OpenTubeX/OpenTubeX) |
+| [Click here](https://github.com/pkgforge-dev/OpenTubeX-Appimage-Enhanced/releases/latest) | [Click here](https://github.com/OpenTubeX/OpenTubeX) |
 
 </div>
 
