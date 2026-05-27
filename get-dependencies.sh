@@ -40,4 +40,4 @@ rm -f ./*.xz
 rm -rf ./usr/share/doc
 mv -v ./opt/OpenTubeX/* ./AppDir/bin
 cp ./usr/share/icons/hicolor/scalable/apps/opentubex.svg ./AppDir/.DirIcon
-mv -v ./usr/share/icons/hicolor/scalable/apps/opentubex.svg ./usr/share/applications/opentube.desktop ./AppDir
+mv -v ./usr/share/icons/hicolor/scalable/apps/opentubex.svg ./usr/share/applications/opentubex.desktop ./AppDir
